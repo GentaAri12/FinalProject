@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* CSS Variables */
+:root {
+  --primary-color: #d83f31;
+  --secondary-color: #ee9322;
+  --bg-Pcolor: #e9b824;
+  --bg-Scolor: #219c90;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.4s ease-in;
+}
+
+nav {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  box-shadow: 2px 3px 2px #f1f1f1;
+}
+
+/* nav */
+.logo {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.logo img {
+  height: 1.5rem;
+}
+
+.eco {
+  color: var(--primary-color);
+}
+
+.vibes {
+  color: var(--secondary-color);
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+body {
+  font-family: "Roboto", sans-serf;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+/* body */
+.awal {
+  display: flex;
+  align-items: center;
+  height: 600px;
+  justify-content: space-between;
+  gap: 1.9rem;
+  max-width: 1100px;
+  margin: -4rem auto -6rem;
+}
+
+.intro-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.intro-text h3 {
+  margin-bottom: 0.5rem;
+}
+
+.awal p {
+  line-height: 1.7rem;
+}
+
+.intro-text-1 {
+  color: var(--primary-color);
+}
+
+.intro-text-2 {
+  color: var(--secondary-color);
+}
+
+/* button */
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.8rem 0.6rem;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.red {
+  background-color: var(--secondary-color);
+  margin-right: 1.5rem;
+}
+
+.red:hover {
+  background-color: #f1262d;
+  color: #fff;
+}
+
+.blue {
+  background-color: var(--primary-color);
+}
+
+.blue:hover {
+  background-color: #095cf7;
+  color: #fff;
+}
+
+/* abaout */
+
+.about {
+  position: relative;
+  height: 500px;
+  display: flex;
+  justify-content: right;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  background-color: var(--bg-Pcolor);
+  color: #fff;
+}
+
+.about h3 {
+  font-size: 2em;
+  margin-top: 3rem;
+  margin-bottom: -20px;
+  margin-left: 5rem;
+}
+
+.about p {
+  font-size: 1em;
+  text-align: justify;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  margin-right: 4rem;
+}
+.about-img img {
+  height: 400px;
+  width: 400px;
+  margin-top: 3rem;
+  margin-right: 3rem;
+}
+
+/* experiences */
+
+.experiences {
+  position: relative;
+  height: 600px;
+  justify-content: right;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+.experiences h2 {
+  font-size: 2em;
+  margin-bottom: -20px;
+  margin-left: 5rem;
+  color: var(--primary-color);
+}
+
+.experiences h3 {
+  margin-top: 3rem;
+  margin-bottom: -20px;
+  margin-left: 5rem;
+  color: var(--secondary-color);
+}
+
+.experiences p {
+  text-align: justify;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  margin-right: 10rem;
+}
+
+/* skills */
+.skills {
+  height: 500px;
+  display: flex;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  background-color: var(--bg-Scolor);
+  color: white;
+}
+.skills h3 {
+  font-size: 2em;
+  margin-left: 5rem;
+  margin-top: 3rem;
+}
+.skills-list {
+  width: 50%;
+  margin-top: 8rem;
+  margin-left: -5rem;
+  position: relative;
+}
+
+.skills-list ion-icon {
+  font-size: 30px;
+  color: white;
+}
+
+.skills-bar {
+  margin-top: 0.5rem;
+  background-color: #ddd;
+}
+
+.skills-python {
+  width: 70%;
+  background-color: #04aa6d;
+  color: #04aa6d;
+}
+.skills-office {
+  width: 90%;
+  background-color: #04aa6d;
+  color: #04aa6d;
+}
+.skills-net {
+  width: 80%;
+  background-color: #04aa6d;
+  color: #04aa6d;
+}
+.skills-android {
+  width: 50%;
+  background-color: #04aa6d;
+  color: #04aa6d;
+}
+.skills-figma {
+  width: 60%;
+  background-color: #04aa6d;
+  color: #04aa6d;
+}
+.skills-img {
+  height: 400px;
+  width: 400px;
+  margin-top: 5rem;
+  margin-left: 4rem;
+}
+
+/* education */
+.education {
+  margin-top: -1rem;
+  padding: 1rem 0;
+}
+.education h3 {
+  font-size: 2em;
+  margin-left: 5rem;
+  margin-top: 3rem;
+  color: var(--secondary-color);
+}
+.school {
+  margin: 2rem auto;
+  max-width: 1100px;
+}
+
+.school img {
+  width: 23rem;
+  height: 23rem;
+  border-radius: 0.6rem;
+  border: black solid;
+}
+
+.edu-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 1rem;
+}
+
+.school-name {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.school-detail {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* interests */
+.interests {
+  position: relative;
+  height: 500px;
+  display: flex;
+  justify-content: right;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  background-color: var(--bg-Pcolor);
+  color: #fff;
+}
+
+.interests h3 {
+  font-size: 2em;
+  margin-top: 3rem;
+  margin-bottom: -20px;
+  margin-left: 4rem;
+}
+
+.interests p {
+  font-size: 1em;
+  text-align: justify;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  margin-right: 5rem;
+}
+
+.interests-img img {
+  height: 400px;
+  width: 400px;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+/* award */
+.award {
+  position: relative;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+.award-img img {
+  height: 300px;
+  width: 300px;
+  margin-top: 1rem;
+}
+.award h3 {
+  font-size: 2em;
+  margin-bottom: -20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--primary-color);
+}
+
+.award p {
+  font-size: 1.3em;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.social {
+  text-align: center;
+  margin: 1rem;
+}
+
+.socicons {
+  font-size: 1.3rem;
+}
+
+footer {
+  border-top: 1px solid #686868;
+  box-shadow: 0px -2px 3px #686868;
+  text-align: center;
+}
+
+/* floating button */
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #272727;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.dark-mode .content {
+  background-color: #333;
+  color: #fff;
+}
